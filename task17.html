@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Forms</title>
+    <link rel="stylesheet" href="style17.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="subscribe"> Subscribe to newsletter
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="us">India</option>
+                <option value="ca">Japan</option>
+                <option value="uk">United States</option>
+            </select>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</body>
+</html>

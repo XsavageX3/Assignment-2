@@ -1,0 +1,56 @@
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "item1 item2"
+        "span span"
+        "nested item4";
+    grid-gap: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Grid Items */
+.grid-item {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.grid-item:nth-child(1) {
+    grid-area: item1;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: item2;
+}
+
+.grid-item.span {
+    grid-area: span;
+}
+
+.grid-item:nth-child(5) {
+    grid-area: item4;
+}
+
+/* Nested Grid */
+.nested-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    background-color: lightcoral;
+    padding: 10px;
+    grid-area: nested;
+}
+
+.nested-item {
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

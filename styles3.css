@@ -1,0 +1,27 @@
+ /* Font Family */
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Arial, sans-serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Font Size */
+.large-text {
+    font-size: 24px;
+}
+
+/* Font Weight */
+.bold-text {
+    font-weight: bold;
+}
+
+/* Font Style */
+.italic-text {
+    font-style: italic;
+}

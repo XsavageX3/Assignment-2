@@ -1,0 +1,25 @@
+/* Text Color */
+h1 {
+    color: darkred;
+}
+
+/* Background Color */
+.color-box {
+    background-color:lightpink;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Background Gradient */
+.gradient-box {
+    background: linear-gradient(to right, red, yellow);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Background Image */
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
